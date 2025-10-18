@@ -1,0 +1,133 @@
+{
+  "HomePage": {
+    "navbar": {
+      "about": "About Us",
+      "coverageMap": "Coverage Map",
+      "infrastructure": "Infrastructure",
+      "partners": "Partners",
+      "news": "News",
+      "vacancies": "Vacancies"
+    },
+    "languageSelect": {
+      "ru": "RU",
+      "en": "EN"
+    },
+    "themeToggle": "Toggle Theme",
+    "hero": {
+      "slogan": "Kapital-T",
+      "subtitle": "Reliable partner for  successful growth of your business",
+      "becomePartner": "Become a Partner",
+      "contactUs": "Contact Us"
+    },
+    "stats": {
+      "totalClients": "Total Client Base",
+      "includingHoReCa": "including HoReCa",
+      "activeClients": "Active\nClient Base"
+    },
+    "aboutSection": {
+      "aboutUs": "We are a leading trade and distribution company, specializing in importing and\nselling a wide range of goods throughout Tajikistan",
+      "values": "Commitment to quality service, building client trust,\nand continuous development. We pride ourselves\non our reputation as a reliable partner, making\nthe best products accessible for businesses and the population of Tajikistan.",
+      "value": "Value",
+      "goal": "Goal",
+      "open": "Opening RCB in GBAO",
+      "ext": "Expanding portfolio",
+      "bust": "Improve customer service",
+      "goals": "Today, 'Kapital-T' is a modern, dynamic\ncompany with great potential and prospects."
+    },
+    "coverage": {
+      "years": "24 years serving cities and districts across Tajikistan",
+      "employees": "300 dedicated employees",
+      "dailyDeliveries": "100k+ total deliveries per day",
+      "mainOffices": {
+        "dushanbe": "Dushanbe, +992 88 888 0101, M. Nazarshoev 143",
+        "khujand": "Khujand, +992 88 888 0101, 17 microdistrict, building 2"
+      },
+      "branches": [
+        "Tursunzade",
+        "Istaravshan",
+        "Panjakent",
+        "Isfara",
+        "Bokhtar",
+        "Vose",
+        "Garm"
+      ]
+    },
+    "mapCoverage": {
+      "sughd": { "AKB": 2170, "OKB": 2110 },
+      "rrpKhatlon": { "AKB": 5860, "OKB": 6700 },
+      "gbao": { "AKB": 220, "OKB": 360 },
+      "mapTitle": "Map of Tajikistan"
+    },
+    "infrastructure": {
+      "warehouseArea": "15,000 sq.m warehouse area",
+      "fleet": "70 vehicles in our fleet",
+      "clients": "8,000+ regular clients",
+      "exclusiveContracts": "5+ exclusive contracts",
+      "coveredCities": "47+ cities covered"
+    },
+    "partners": {
+      "description": "Our portfolio includes globally recognized brands, successfully promoted in our market. Main product categories: food and hygiene products."
+    },
+    "newsSection": {
+      "seeAll": "See All News",
+      "examples": [
+        {
+          "title": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+          "readMore": "Read More"
+        },
+        {
+          "title": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+          "readMore": "Read More"
+        },
+        {
+          "title": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+          "readMore": "Read More"
+        }
+      ]
+    },
+    "vacanciesSection": {
+      "withExperience": {
+        "location": "Dushanbe",
+        "position": "Sales Representative",
+        "description": "Supervisor of the sales department. Dushanbe and RRP. About the company: We are a developing manufacturer of toilet and household soap",
+        "readMore": "Read More"
+      },
+      "withoutExperience": {
+        "location": "Khujand",
+        "position": "Merchandiser",
+        "description": "Full-time. About the company: We are the largest distribution company in Tajikistan, with many years of market experience",
+        "readMore": "Read More"
+      },
+      "supervisor": {
+        "location": "Bokhtar",
+        "position": "Supervisor",
+        "description": "Sales department supervisor. Dushanbe and RRP. Largest distribution company in Tajikistan",
+        "readMore": "Read More"
+      },
+      "seeAll": "See All Vacancies"
+    },
+    "contactForm": {
+      "becomePartner": "Become a Partner",
+      "name": "Full Name",
+      "company": "Company Name",
+      "email": "Email",
+      "phone": "Phone",
+      "file": "No file chosen",
+      "send": "Send",
+      "contactEmail": "contact@company.com",
+      "contactPhone": "+992 88 888 0101"
+    },
+    "footer": {
+      "navigation": [
+        "About Us",
+        "Coverage Map",
+        "Infrastructure",
+        "Partners",
+        "News",
+        "Vacancies"
+      ],
+      "social": ["Telegram", "WhatsApp"],
+      "copyright": "Copyright © 2024 KAPITAL-T | All Rights Reserved"
+    }
+  }
+}
