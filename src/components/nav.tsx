@@ -16,11 +16,11 @@ const Navbar = ({ locale }: { locale: string }) => {
   const pathname = usePathname();
   const t = useTranslations("HomePage");
 
-  const handleChange = (e) => {
-    const newLocale = e.target.value;
+  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>): void => {
+    const newLocale: string = e.target.value;
     setValue(newLocale);
 
-    const newPath = pathname.replace(`/${locale}`, `/${newLocale}`);
+    const newPath: string = (pathname as string).replace(`/${locale}`, `/${newLocale}`);
     router.push(newPath);
   };
 
