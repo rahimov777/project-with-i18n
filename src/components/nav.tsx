@@ -7,18 +7,21 @@ import Image from "next/image";
 import { Menu } from "lucide-react";
 import kap from "../../public/kapital-logo.svg";
 import { AnimatedThemeToggler } from "./ui/animated-theme-toggler";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useTranslations } from "use-intl";
 
-const Navbar = ({locale}:{locale:string}) => {
+const Navbar = ({ locale }: { locale: string }) => {
   const [value, setValue] = useState(locale);
   const router = useRouter();
+  const pathname = usePathname();
   const t = useTranslations("HomePage");
 
   const handleChange = (e) => {
-    const locale = e.target.value;
-    setValue(locale);
-    router.push(`/${locale}`);
+    const newLocale = e.target.value;
+    setValue(newLocale);
+
+    const newPath = pathname.replace(`/${locale}`, `/${newLocale}`);
+    router.push(newPath);
   };
 
   return (
@@ -30,11 +33,11 @@ const Navbar = ({locale}:{locale:string}) => {
         </div>
 
         <div className="hidden md:flex gap-[30px] font-semibold">
-          <Link href={""}>{t("navbar.about")}</Link>
+          <Link href={"/"}>{t("navbar.about")}</Link>
           <Link href={""}>{t("navbar.coverageMap")}</Link>
           <Link href={""}>{t("navbar.infrastructure")}</Link>
-          <Link href={""}>{t("navbar.partners")}</Link>
-          <Link href={""}>{t("navbar.news")}</Link>
+          <Link href={""}>{t("navbar.partners")} </Link>
+          <Link href={"/news"}>{t("navbar.news")}</Link>
           <Link href={""}>{t("navbar.vacancies")}</Link>
         </div>
 

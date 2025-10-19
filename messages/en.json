@@ -1,7 +1,7 @@
 {
   "HomePage": {
     "navbar": {
-      "about": "About Us",
+      "about": "Home",
       "coverageMap": "Coverage Map",
       "infrastructure": "Infrastructure",
       "partners": "Partners",
@@ -35,41 +35,53 @@
       "goals": "Today, 'Kapital-T' is a modern, dynamic\ncompany with great potential and prospects."
     },
     "coverage": {
-      "years": "24 years serving cities and districts across Tajikistan",
-      "employees": "300 dedicated employees",
-      "dailyDeliveries": "100k+ total deliveries per day",
+      "years": "24 years",
+      "ob": "serving cities and districts\nacross Tajikistan",
+      "employees": "dedicated\nemployees",
+      "dailyDeliveries": "100k+",
+      "tot": "total deliveries\nper day",
       "mainOffices": {
-        "dushanbe": "Dushanbe, +992 88 888 0101, M. Nazarshoev 143",
-        "khujand": "Khujand, +992 88 888 0101, 17 microdistrict, building 2"
+        "mainOffice": "Main Offices",
+        "dushanbe": "Dushanbe",
+        "ul": "M. Nazarshoev 143",
+        "khujand": "Khujand",
+        "dis": "17 microdistrict, building 2",
+        "filials": "Branches with warehouse and sales team"
       },
-      "branches": [
-        "Tursunzade",
-        "Istaravshan",
-        "Panjakent",
-        "Isfara",
-        "Bokhtar",
-        "Vose",
-        "Garm"
-      ]
+      "branches": {
+        "Tursunzade": "Tursunzade",
+        "Istaravshan": "Istaravshan",
+        "Panjakent": "Panjakent",
+        "Isfara": "Isfara",
+        "Bokhtar": "Bokhtar",
+        "Vose": "Vose",
+        "Garm": "Garm"
+      }
     },
     "mapCoverage": {
-      "sughd": { "AKB": 2170, "OKB": 2110 },
-      "rrpKhatlon": { "AKB": 5860, "OKB": 6700 },
-      "gbao": { "AKB": 220, "OKB": 360 },
-      "mapTitle": "Map of Tajikistan"
+      "mapTitle": "Map of Coverage",
+      "soghd": "Soghd",
+      "akb": "AKB",
+      "okb": "OKB",
+      "rrp": "RRP in Khatlon",
+      "gbao": "GBAO"
     },
-    "infrastructure": {
-      "warehouseArea": "15,000 sq.m warehouse area",
-      "fleet": "70 vehicles in our fleet",
-      "clients": "8,000+ regular clients",
-      "exclusiveContracts": "5+ exclusive contracts",
-      "coveredCities": "47+ cities covered"
+    "infrastructures": {
+      "infrastructure": "Infrastructure",
+      "sq": "sq.m",
+      "warehouseArea": "warehouse area",
+      "vehicles": "vehicles",
+      "fleet": "in our fleet",
+      "clients": "regular clients",
+      "exclusiveContracts": "exclusive contracts",
+      "coveredCities": "cities covered"
     },
     "partners": {
+      "partner": "Partners and clients",
       "description": "Our portfolio includes globally recognized brands, successfully promoted in our market. Main product categories: food and hygiene products."
     },
     "newsSection": {
-      "seeAll": "See All News",
+      "seeAll": "News",
       "examples": [
         {
           "title": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
@@ -83,9 +95,14 @@
           "title": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
           "readMore": "Read More"
         }
-      ]
+      ],
+      "allNews": "See All News"
     },
     "vacanciesSection": {
+      "vacancy": "Vacancies",
+      "op1": "Experience from 1 year",
+      "op2": "No experience needed",
+      "op3": "Experience from 1 year",
       "withExperience": {
         "location": "Dushanbe",
         "position": "Sales Representative",
@@ -128,6 +145,147 @@
       ],
       "social": ["Telegram", "WhatsApp"],
       "copyright": "Copyright © 2024 KAPITAL-T | All Rights Reserved"
+    }
+  },
+  "HomePage2": {
+    "novos": {
+      "a1": "Home",
+      "a2": "Coverage Map",
+      "a3": "Infrastructure",
+      "a4": "Partners",
+      "a5": "News",
+      "a6": "Careers",
+      "a7": "«Kapital-T»",
+      "a8": "A reliable partner for the successful growth of your business",
+      "a9": "Become a partner",
+      "a10": "Contact us",
+      "a11": "About Us",
+      "a12": "We are a leading trading and distribution company specializing in the import and sale of a wide range of products throughout Tajikistan.",
+      "a13": "Values",
+      "a14": "Commitment to quality service, building customer trust, and continuous development. We take pride in our reputation as a leading and reliable partner, contributing to making the best products accessible for businesses and the people of Tajikistan.",
+      "a15": "Goals",
+      "a16": "Opening a Regional Distribution Center in GBAO",
+      "a17": "Portfolio Expansion",
+      "a18": "Improve Customer Service",
+      "a19": "As of today, «Kapital-T» is a modern, dynamically growing company with great potential and promising prospects.",
+      "a20": "Coverage Map",
+      "a21": "Infrastructure",
+      "a22": "Warehouse Area",
+      "a23": "regular customers",
+      "a24": "exclusive contracts",
+      "a25": "captured cities",
+      "a26": "Partners and Clients",
+      "a27": "Our portfolio includes world-renowned brands whose products are successfully promoted in our market. The main product categories are:",
+      "a28": "Food products and hygiene products",
+      "a29": "24 years old",
+      "a30": "We serve cities and districts across Tajikistan",
+      "a31": "a close-knit team",
+      "a32": "total daily delivery volume",
+      "a33": "Main offices",
+      "a34": "Dushanbe",
+      "a35": "143 M. Nazarshoev Street",
+      "a36": "Khujand  ",
+      "a37": "Microdistrict 17, Building 2",
+      "a38": "Branches with a warehouse and a sales team",
+
+      "a39": "Tursunzade",
+      "a40": "Istaravshan",
+      "a41": "Panjakent",
+      "a42": "Isfara",
+      "a43": "Bokhtar",
+      "a44": "Vose",
+      "a45": "Garm",
+      "a46": "News",
+      "a47": "Title",
+      "a48": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+      "a49": "Learn more",
+      "a50": "Latest News",
+      "a51": "Vacancies",
+      "a52": "Experience from 1 year",
+      "a53": "Sales Representative",
+      "a54": "Sales Department Supervisor — Dushanbe and RRP1",
+      "a55": "All Vacancies",
+      "a56": "Become a partner",
+      "a57": "Send",
+      "a58": "A leading trade and distribution company",
+      "a59": "«KAPITAL-Т» - is one of the largest distribution companies in the Republic of Tajikistan, engaged in wholesale trade and the distribution of food products, perfumes and cosmetics, hygiene products, and more. Since 2000, LLC “KAPITAL-T” has been developing dynamically — new partnerships have been established, the number of clients has been growing, the company’s material and technical base has been improving, and its software systems have been enhanced. The company continuously works to expand its sales geography in order to cover remote and hard-to-reach regions of the country. The organizational structure is evolving, the wholesale and retail sales directions are actively developing, and operations within the sales and logistics departments are being optimized.The quality of distribution continues to improve, which is confirmed by the company’s leading position in the market.  ",
+      "a60": "News",
+      "a61": "KAPITAL-Т» - is one of the largest distribution companies in the Republic of Tajikistan, engaged in wholesale trade and the distribution of food products, perfumes and cosmetics, hygiene products, and more.",
+      "a62": "Since 2000, LLC KAPITAL-Т» has been developing dynamically — new partnerships have been established, the number of clients has been growing, the company’s material and technical base has been improving, and its software systems have been enhanced.",
+
+      "a63": "The company consistently carries out extensive work to expand its sales geography, aiming to cover remote and hard-to-reach regions of the republic. The organizational structure is evolving, the wholesale and retail sales sectors are actively developing, and the operations of the sales and logistics departments are being optimized. The quality of distribution continues to improve, which is confirmed by the company’s leading position in the market.",
+      "a64": "About the Company",
+      "a65": "Commitment to high-quality service, building client trust, and continuous development. We take pride in our reputation as a leading and reliable partner, contributing to the availability of the best products for businesses and the people of Tajikistan.",
+
+      "a66": "Opening a Regional Distribution Center in GBAO",
+      "a67": "Expanding the product portfolio",
+      "a68": "Improving customer service quality",
+
+      "a69": "Other News",
+      "a70": "Today, “KAPITAL-T” – is a modern, fast-growing company with great potential and promising prospects.",
+      "a71": "IT Specialist ",
+      "a72": "Lawyer",
+      "a73": "Sales, Retail",
+      "a74": "Administrative Staff",
+      "a75": "Marketing, Advertising, Design",
+      "a76": "HR, Personnel",
+      "a77": "Security, Safety",
+      "a78": "Accounting, Finance",
+      "a79": "Executives / Management",
+      "a80": "Transport, Logistics, Warehouse",
+
+      "a81": "Sales Representative",
+      "a82": "Sales Department Supervisor, Dushanbe and RRP1 About the company: We are a growing manufacturer of toilet and household soap.",
+      "a83": "Learn more",
+      "a84": "Apply now",
+      "a85": "Regions",
+
+      "a86": "Supervisor",
+
+      "a87": "We are an emerging manufacturer of toilet and household soap, as well as laundry detergent. Our goal is to provide customers with high-quality products that make their lives cleaner and more comfortable. Join our team and contribute to the success of our company!",
+      "a88": "We are looking for a dynamic and goal-oriented supervisor! Join our team and reach new heights with us if you possess the following qualities:",
+      "a89": "• Leadership skills and the ability to motivate a team.",
+      "a90": "• Strategic thinking and analytical skills.",
+      "a91": "• Responsibility and strong organizational skills.",
+      "a92": "• Ability to make quick decisions and solve problems effectively.",
+      "a93": "• Results orientation and customer service focus.",
+      "a94": "• Determination and a strong results-oriented mindset.",
+      "a95": "• Willingness to work in a highly competitive environment.",
+      "a96": "We expect the candidate to have:",
+      "a97": "• At least 2 years of experience as a supervisor or head of sales department.",
+      "a98": "• Proven track record of team management and achieving high sales results.",
+      "a99": "• Knowledge of the Dushanbe and RRP market and understanding of working in a highly competitive environment.",
+      "a100": "• Excellent communication and negotiation skills.",
+      "a102": "• Ability to analyze data and develop strategies to increase sales.",
+      "a103": "• Readiness for intensive work and solving complex tasks.",
+      "a104": "Important:",
+      "a105": "This position requires strong determination and readiness to work in a highly competitive environment. We are looking for result-driven individuals who are ready for challenges.",
+      "a106": "Key responsibilities:",
+      "a107": "• Leading and coordinating the work of sales representatives responsible for specific territories in Dushanbe and RRP.",
+      "a108": "• Setting goals and tasks for employees and monitoring their execution.",
+      "a109": "• Managing and supporting the team, developing their professional skills.",
+      "a110": "• Developing and implementing effective sales strategies.",
+      "a111": "• Negotiating with key clients and partners.",
+      "a112": "• Analyzing sales and market trends, preparing reports for management.",
+      "a113": "• Ensuring a high level of customer service.",
+
+      "a114": "• Monitoring sales plans and achieving key performance indicators (KPIs).",
+      "a115": "• Managing inventory and coordinating with the logistics department.",
+      "a116": "We offer:",
+      "a117": "• Salary and bonuses above the market average in Tajikistan.",
+      "a118": "• Achievable sales plans and well-established infrastructure.",
+      "a119": "• Opportunities for professional growth.",
+      "a120": "• Corporate events and training programs.",
+      "a121": "• Motivation and reward programs for top performers.",
+      "a122": "• Compensation for transportation and mobile communication expenses.",
+      "a123": "• Support and mentorship from experienced colleagues.",
+      "a124": "• Modern tools and resources for effective work.",
+      "a125": "We are looking for result-driven individuals who are ready for challenges.",
+      "a126": "Other vacancies",
+
+      "a127": "Interested in the position?",
+      "a128": "Please fill in all the required information and upload your resume. We will contact you shortly!",
+      "a129": "Apply now"
     }
   }
 }

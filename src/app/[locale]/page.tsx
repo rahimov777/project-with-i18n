@@ -142,7 +142,7 @@ const Home = () => {
             </div>
           </div>
           <p className="mt-[20px] whitespace-pre-line">
-           {t("aboutSection.goals")}
+            {t("aboutSection.goals")}
           </p>
         </div>
         <div className="div3">
@@ -162,10 +162,10 @@ const Home = () => {
               <FaClock size={30} />
             </div>
             <div className="">
-              <h2 className="font-bold text-[40px] text-[#111827]">24 года</h2>
-              <p>
-                обслуживаем города и районы по <br /> всему Таджикистану
-              </p>
+              <h2 className="font-bold text-[40px] text-[#111827] whitespace-pre-line">
+                {t("coverage.years")}
+              </h2>
+              <p className="whitespace-pre-line">{t("coverage.ob")}</p>
             </div>
           </div>
           <div className="div7 w-[241px] h-[261px] bg-[#F9FAFB] rounded-[28px] p-[30px] ">
@@ -173,22 +173,20 @@ const Home = () => {
               <FaUsers size={30} />
             </div>
             <h2 className="font-bold text-[40px] text-[#111827]">300</h2>
-            <p>
-              сплоченных <br /> сотрудников
-            </p>
+            <p className="whitespace-pre-line">{t("coverage.employees")}</p>
           </div>
           <div className="div8 w-[241px] h-[261px] bg-[#F9FAFB] rounded-[28px] ml-[-50px] p-[30px]">
             <div className="flex justify-center items-center w-[72px] h-[72px] rounded-[20px] bg-[#FFFFFF66]">
               <FaTruckFast size={30} />
             </div>
-            <h2 className="font-bold text-[40px] text-[#111827]">100 т +</h2>
-            <p>
-              общий объем <br /> доставок в день
-            </p>
+            <h2 className="font-bold text-[40px] text-[#111827]">
+              {t("coverage.dailyDeliveries")}
+            </h2>
+            <p className="whitespace-pre-line">{t("coverage.tot")}</p>
           </div>
           <div className="div9 w-[790px] h-[515px] bg-[#F9FAFB] rounded-[28px]">
             <h2 className="text-[20px] text-[#111827] font-bold p-[20px] flex justify-center">
-              Основные офисы
+              {t("coverage.mainOffices.mainOffice")}
             </h2>
             <div className="flex gap-[14px] justify-self-center">
               <div className="flex text-center justify-center items-center w-[352px] h-[111px] bg-[#ffffff2c] rounded-[20px]">
@@ -196,11 +194,11 @@ const Home = () => {
                   <div className="flex gap-1.5 items-center justify-center">
                     <FaLocationDot size={24} />
                     <h2 className="font-bold text-[20px] text-[#111827]">
-                      Душанбе
+                      {t("coverage.mainOffices.dushanbe")}
                     </h2>
                   </div>
                   <p>+992 88 888 0101</p>
-                  <p>улица М.Назаршоева 143</p>
+                  <p>{t("coverage.mainOffices.ul")}</p>
                 </div>
               </div>
               <div className="flex text-center justify-center items-center w-[352px] h-[111px] bg-[#ffffff2c] rounded-[20px]">
@@ -208,55 +206,55 @@ const Home = () => {
                   <div className="flex gap-1.5 items-center justify-center">
                     <FaLocationDot size={24} />
                     <h2 className="font-bold text-[20px] text-[#111827]">
-                      Худжанд
+                      {t("coverage.mainOffices.khujand")}
                     </h2>
                   </div>
                   <p>+992 88 888 0101</p>
-                  <p>17 микрорайон, строение 2</p>
+                  <p>{t("coverage.mainOffices.dis")}</p>
                 </div>
               </div>
             </div>
             <div className="flex justify-center mt-[100px]">
               <div className="text-center">
                 <h2 className="font-bold text-[#111827] ">
-                  Филиалы со складом и торговой командой
+                  {t("coverage.mainOffices.filials")}
                 </h2>
                 <div className="flex gap-[30px]">
                   <div className="flex gap-[20px] mt-[30px]">
                     <div className="w-[122px] h-[40px] flex justify-center items-center bg-[#ffffff2c] rounded-[12px]">
-                      <p>Турсунзаде</p>
+                      <p>{t("coverage.branches.Tursunzade")}</p>
                     </div>
                   </div>
                   <div className="flex gap-[20px] mt-[30px]">
                     <div className="w-[122px] h-[40px] flex justify-center items-center bg-[#ffffff2c] rounded-[12px]">
-                      <p>Истаравшан</p>
+                      <p>{t("coverage.branches.Istaravshan")}</p>
                     </div>
                   </div>
                   <div className="flex gap-[20px] mt-[30px]">
                     <div className="w-[122px] h-[40px] flex justify-center items-center bg-[#ffffff2c] rounded-[12px]">
-                      <p>Пянджакент</p>
+                      <p>{t("coverage.branches.Panjakent")}</p>
                     </div>
                   </div>
                   <div className="flex gap-[20px] mt-[30px]">
                     <div className="w-[122px] h-[40px] flex justify-center items-center bg-[#ffffff2c] rounded-[12px]">
-                      <p>Исфара</p>
+                      <p>{t("coverage.branches.Isfara")}</p>
                     </div>
                   </div>
                 </div>
                 <div className="flex gap-[30px] justify-self-center">
                   <div className="flex gap-[20px] mt-[30px]">
                     <div className="w-[122px] h-[40px] flex justify-center items-center bg-[#ffffff2c] rounded-[12px]">
-                      <p>Бохтар</p>
+                      <p>{t("coverage.branches.Bokhtar")}</p>
                     </div>
                   </div>
                   <div className="flex gap-[20px] mt-[30px]">
                     <div className="w-[122px] h-[40px] flex justify-center items-center bg-[#ffffff2c] rounded-[12px]">
-                      <p>Восеъ</p>
+                      <p>{t("coverage.branches.Vose")}</p>
                     </div>
                   </div>
                   <div className="flex gap-[20px] mt-[30px]">
                     <div className="w-[122px] h-[40px] flex justify-center items-center bg-[#ffffff2c] rounded-[12px]">
-                      <p>Гарм</p>
+                      <p>{t("coverage.branches.Garm")}</p>
                     </div>
                   </div>
                 </div>
@@ -266,23 +264,29 @@ const Home = () => {
         </div>
       </div>
       <div className="flex justify-self-center flex-col">
-        <h2 className="text-[48px] text-[#111827] font-bold">Карта покрытия</h2>
+        <h2 className="text-[48px] text-[#111827] font-bold">
+          {t("mapCoverage.mapTitle")}
+        </h2>
         <hr className="w-[100px] ml-[140px] mt-[30px] border-[#FFA900] border-[3px]" />
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center mx-[100px] my-[50px] rounded-2xl p-8">
         <div className="space-y-10 w-full md:w-1/2">
           <div>
             <h3 className="bg-linear-to-b text-[40px] from-[#E6E6E6] to-[#FFFFFF] bg-clip-text text-transparent text-xl font-semibold mb-2">
-              СОҒД
+              {t("mapCoverage.soghd")}
             </h3>
             <div className="flex gap-10 text-2xl font-bold text-gray-900">
               <p className="text-[40px]">
                 2170{" "}
-                <span className="text-sm font-normal text-gray-500">АКБ</span>
+                <span className="text-sm font-normal text-gray-500">
+                  {t("mapCoverage.akb")}
+                </span>
               </p>
               <p className="text-[40px]">
                 2110{" "}
-                <span className="text-sm font-normal text-gray-500">ОКБ</span>
+                <span className="text-sm font-normal text-gray-500">
+                  {t("mapCoverage.okb")}
+                </span>
               </p>
             </div>
             <div className="w-21 h-[2px] bg-orange-400 mt-3"></div>
@@ -290,16 +294,20 @@ const Home = () => {
 
           <div>
             <h3 className="bg-linear-to-b text-[40px] from-[#E6E6E6] to-[#FFFFFF] bg-clip-text text-transparent text-xl font-semibold mb-2">
-              РРП ва Хатлон
+              {t("mapCoverage.rrp")}
             </h3>
             <div className="flex gap-10 text-2xl font-bold text-gray-900">
               <p className="text-[40px]">
                 5860{" "}
-                <span className="text-sm font-normal text-gray-500">АКБ</span>
+                <span className="text-sm font-normal text-gray-500">
+                  {t("mapCoverage.akb")}
+                </span>
               </p>
               <p className="text-[40px]">
                 6700{" "}
-                <span className="text-sm font-normal text-gray-500">ОКБ</span>
+                <span className="text-sm font-normal text-gray-500">
+                  {t("mapCoverage.okb")}
+                </span>
               </p>
             </div>
             <div className="w-21 h-[2px] bg-orange-400 mt-3"></div>
@@ -307,16 +315,20 @@ const Home = () => {
 
           <div>
             <h3 className="bg-linear-to-b text-[40px] from-[#E6E6E6] to-[#FFFFFF] bg-clip-text text-transparent text-xl font-semibold mb-2">
-              ГБАО
+              {t("mapCoverage.gbao")}
             </h3>
             <div className="flex gap-10 text-2xl font-bold text-gray-900">
               <p className="text-[40px]">
                 220{" "}
-                <span className="text-sm font-normal text-gray-500">АКБ</span>
+                <span className="text-sm font-normal text-gray-500">
+                  {t("mapCoverage.akb")}
+                </span>
               </p>
               <p className="text-[40px]">
                 360{" "}
-                <span className="text-sm font-normal text-gray-500">ОКБ</span>
+                <span className="text-sm font-normal text-gray-500">
+                  {t("mapCoverage.okb")}
+                </span>
               </p>
             </div>
             <div className="w-21 h-[2px] bg-orange-400 mt-3"></div>
@@ -334,49 +346,63 @@ const Home = () => {
         </div>
       </div>
       <div className="flex justify-self-center flex-col">
-        <h2 className="text-[48px] text-[#111827] font-bold">Инфраструктура</h2>
+        <h2 className="text-[48px] text-[#111827] font-bold">
+          {t("infrastructures.infrastructure")}
+        </h2>
         <hr className="w-[100px] ml-[140px] mt-[30px] border-[#FFA900] border-[3px]" />
       </div>
       <div className="w-full flex flex-wrap justify-center gap-5 my-[60px]">
         <div className="w-[617px] h-[211px] bg-[#F5F5F5] rounded-[20px] flex flex-col justify-center items-center gap-2">
           <FaWarehouse className="text-[#FFA900] text-4xl" />
-          <h2 className="text-[22px] font-bold text-[#1E293B]">15 000 кв.м</h2>
-          <p className="text-sm text-[#6B7280]">площадь складов</p>
+          <h2 className="text-[22px] font-bold text-[#1E293B]">
+            15 000 {t("infrastructures.sq")}
+          </h2>
+          <p className="text-sm text-[#6B7280]">
+            {t("infrastructures.warehouseArea")}
+          </p>
         </div>
 
         <div className="w-[617px] h-[211px] bg-[#F5F5F5] rounded-[20px] flex flex-col justify-center items-center gap-2">
           <FaTruckMoving className="text-[#FFA900] text-4xl" />
-          <h2 className="text-[22px] font-bold text-[#1E293B]">70 авто</h2>
-          <p className="text-sm text-[#6B7280]">в нашем автопарке</p>
+          <h2 className="text-[22px] font-bold text-[#1E293B]">
+            70 {t("infrastructures.vehicles")}
+          </h2>
+          <p className="text-sm text-[#6B7280]">{t("infrastructures.fleet")}</p>
         </div>
       </div>
       <div className="flex gap-[30px] justify-center">
         <div className="w-[395px] h-[120px] bg-[#F5F5F5] rounded-[20px] flex flex-col justify-center items-center gap-2">
           <FaUsers className="text-[#FFA900] text-4xl" />
           <h2 className="text-[22px] font-bold text-[#1E293B]">8 000+</h2>
-          <p className="text-sm text-[#6B7280]">постоянных клиентов</p>
+          <p className="text-sm text-[#6B7280]">
+            {t("infrastructures.clients")}
+          </p>
         </div>
 
         <div className="w-[395px] h-[120px] bg-[#F5F5F5] rounded-[20px] flex flex-col justify-center items-center gap-2">
           <FaHandshake className="text-[#FFA900] text-4xl" />
           <h2 className="text-[22px] font-bold text-[#1E293B]">5+</h2>
-          <p className="text-sm text-[#6B7280]">эксклюзивных контрактов</p>
+          <p className="text-sm text-[#6B7280]">
+            {t("infrastructures.exclusiveContracts")}
+          </p>
         </div>
 
         <div className="w-[395px] h-[120px] bg-[#F5F5F5] rounded-[20px] flex flex-col justify-center items-center gap-2">
           <FaMapMarkedAlt className="text-[#FFA900] text-4xl" />
           <h2 className="text-[22px] font-bold text-[#1E293B]">47+</h2>
-          <p className="text-sm text-[#6B7280]">охваченных городов</p>
+          <p className="text-sm text-[#6B7280]">
+            {t("infrastructures.coveredCities")}
+          </p>
         </div>
       </div>
       <div className="bg-[#0F1724] text-white rounded-2xl p-8 md:p-12 mx-4 md:mx-8 my-[40px]">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">Партнёры и клиенты</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">
+            {t("partners.partner")}
+          </h2>
           <div className="w-16 h-1 bg-yellow-400 rounded-full mx-auto my-4"></div>
           <p className="text-sm md:text-base text-gray-300 max-w-2xl mx-auto">
-            В нашем портфеле всемирно известные бренды, продукция, которых
-            успешно продвигаются на нашем рынке. Основные категории товаров:
-            продукты питания и гигиенические средства.
+            {t("partners.description")}
           </p>
 
           <div className="mt-8 flex justify-center">
@@ -389,7 +415,7 @@ const Home = () => {
       <div className="py-16 px-6 md:px-12 ">
         <section className="text-center mb-20">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0F1724]">
-            Новости
+            {t("newsSection.seeAll")}
           </h2>
           <div className="w-16 h-1 bg-yellow-400 rounded-full mx-auto my-4"></div>
 
@@ -410,7 +436,7 @@ const Home = () => {
                   habitasse.
                 </p>
                 <button className="flex items-center gap-2 text-[#FF9F0D] font-medium hover:gap-3 transition-all">
-                  Подробнее <FiArrowRight />
+                  {t("newsSection.examples.0.readMore")} <FiArrowRight />
                 </button>
               </div>
             </div>
@@ -431,7 +457,7 @@ const Home = () => {
                   habitasse.
                 </p>
                 <button className="flex items-center gap-2 text-[#FF9F0D] font-medium hover:gap-3 transition-all">
-                  Подробнее <FiArrowRight />
+                  {t("newsSection.examples.1.readMore")} <FiArrowRight />
                 </button>
               </div>
             </div>
@@ -447,75 +473,72 @@ const Home = () => {
                   habitasse.
                 </p>
                 <button className="flex items-center gap-2 text-[#FF9F0D] font-medium hover:gap-3 transition-all">
-                  Подробнее <FiArrowRight />
+                  {t("newsSection.examples.2.readMore")} <FiArrowRight />
                 </button>
               </div>
             </div>
           </div>
 
           <button className="mt-10 bg-[#FF9F0D] hover:bg-[#e68c00] text-white font-medium py-3 px-6 rounded-full flex items-center gap-2 mx-auto transition-colors">
-            Все новости <FiArrowRight />
+            {t("newsSection.allNews")} <FiArrowRight />
           </button>
         </section>
 
         <section className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0F1724]">
-            Вакансии
+            {t("vacanciesSection.vacancy")}
           </h2>
           <div className="w-16 h-1 bg-yellow-400 rounded-full mx-auto my-4"></div>
 
           <div className="mt-10 grid md:grid-cols-3 gap-6 justify-center">
             <div className="bg-white rounded-2xl shadow-md p-6 text-left hover:shadow-lg transition-all relative">
               <span className="absolute top-4 left-4 bg-[#0F1724] text-white text-xs font-medium px-3 py-1 rounded-full">
-                Опыт от 1 года
+                {t("vacanciesSection.op1")}
               </span>
               <div className="flex justify-end items-center gap-2 text-gray-400 text-sm mb-8">
-                <FaMapMarkerAlt /> Душанбе
+                <FaMapMarkerAlt />{" "}
+                {t("vacanciesSection.withExperience.location")}
               </div>
               <h3 className="text-lg font-semibold mb-2">
-                Торговый представитель
+                {t("vacanciesSection.withExperience.position")}
               </h3>
               <p className="text-gray-500 mb-4 text-sm">
-                Супервайзер отдела продаж. Душанбе и РРП. О компании: Мы –
-                развивающийся производитель туалетного и хозяйственного мыла
+                {t("vacanciesSection.withExperience.description")}
               </p>
               <button className="flex items-center gap-2 text-[#FF9F0D] font-medium hover:gap-3 transition-all">
-                Подробнее <FiArrowRight />
+                {t("newsSection.examples.0.readMore")} <FiArrowRight />
               </button>
             </div>
 
             <div className="bg-white rounded-2xl shadow-md p-6 text-left hover:shadow-lg transition-all relative">
               <span className="absolute top-4 left-4 bg-[#0F1724] text-white text-xs font-medium px-3 py-1 rounded-full">
-                Опыт не нужен
+                {t("vacanciesSection.op2")}
               </span>
               <div className="flex justify-end items-center gap-2 text-gray-400 text-sm mb-8">
-                <FaMapMarkerAlt /> Худжанд
+                <FaMapMarkerAlt /> {t("vacanciesSection.withoutExperience.location")}
               </div>
-              <h3 className="text-lg font-semibold mb-2">Мерчандайзер</h3>
+              <h3 className="text-lg font-semibold mb-2">{t("vacanciesSection.withoutExperience.position")}</h3>
               <p className="text-gray-500 mb-4 text-sm">
-                Полный рабочий день. О компании: Мы - крупнейшая
-                дистрибьюционная компания в Таджикистане, с многолетним опытом
-                на рынке
+                {t("vacanciesSection.withoutExperience.description")}
               </p>
               <button className="flex items-center gap-2 text-[#FF9F0D] font-medium hover:gap-3 transition-all">
-                Подробнее <FiArrowRight />
+                {t("newsSection.examples.0.readMore")} <FiArrowRight />
               </button>
             </div>
 
             <div className="bg-white rounded-2xl shadow-md p-6 text-left hover:shadow-lg transition-all relative">
               <span className="absolute top-4 left-4 bg-[#0F1724] text-white text-xs font-medium px-3 py-1 rounded-full">
-                Опыт от 1 года
+                {t("vacanciesSection.op3")}
               </span>
               <div className="flex justify-end items-center gap-2 text-gray-400 text-sm mb-8">
-                <FaMapMarkerAlt /> Бохтар
+                <FaMapMarkerAlt /> {t("vacanciesSection.supervisor.location")}
               </div>
-              <h3 className="text-lg font-semibold mb-2">Супервайзер</h3>
+              <h3 className="text-lg font-semibold mb-2">{t("vacanciesSection.supervisor.position")}</h3>
               <p className="text-gray-500 mb-4 text-sm">
-                Супервайзер отдела продаж. Душанбе и РРП. О компании: Мы
-                крупнейшая дистрибьюционная компания в Таджикистане
+                {t("vacanciesSection.supervisor.description")}
               </p>
               <button className="flex items-center gap-2 text-[#FF9F0D] font-medium hover:gap-3 transition-all">
-                Подробнее <FiArrowRight />
+                {t("newsSection.examples.0.readMore")} <FiArrowRight />
               </button>
             </div>
           </div>
