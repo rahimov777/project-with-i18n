@@ -20,7 +20,10 @@ const Navbar = ({ locale }: { locale: string }) => {
     const newLocale: string = e.target.value;
     setValue(newLocale);
 
-    const newPath: string = (pathname as string).replace(`/${locale}`, `/${newLocale}`);
+    const newPath: string = (pathname as string).replace(
+      `/${locale}`,
+      `/${newLocale}`,
+    );
     router.push(newPath);
   };
 
@@ -45,10 +48,21 @@ const Navbar = ({ locale }: { locale: string }) => {
           <select
             value={locale}
             onChange={handleChange}
-            className="w-[100px] border-[1px] border-gray-300 p-[5px] rounded-[4px]"
+            className=" w-[90px] h-10 px-3 rounded-xl border border-gray-300 bg-white text-gray-800 dark:border-white/20 dark:bg-white/10 dark:text-white dark:backdrop-blur-md text-sm font-medium outline-none cursor-pointer transition-all duration-300 hover:border-gray-400 dark:hover:border-white/40 focus:border-gray-500 dark:focus:border-white/60 focus:ring-2 focus:ring-gray-200 dark:focus:ring-white/10"
           >
-            <option value="ru">RU</option>
-            <option value="en">EN</option>
+            <option
+              value="ru"
+              className="bg-white text-gray-800 dark:bg-gray-900 dark:text-white"
+            >
+              RU
+            </option>
+
+            <option
+              value="en"
+              className="bg-white text-gray-800 dark:bg-gray-900 dark:text-white"
+            >
+              EN
+            </option>
           </select>
           <AnimatedThemeToggler />
           <Menu className="text-amber-300" />
